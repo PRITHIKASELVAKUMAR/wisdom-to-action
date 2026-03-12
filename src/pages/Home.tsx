@@ -7,10 +7,10 @@ import CategoryChip from "@/components/CategoryChip";
 import heroImage from "@/assets/hero-community.png";
 
 const categories = [
-  { icon: <Plant size={20} />, label: "Farming" },
+  { icon: <Flower size={20} />, label: "Farming" },
   { icon: <FirstAid size={20} />, label: "Herbal Medicine" },
   { icon: <Drop size={20} />, label: "Water Conservation" },
-  { icon: <HandHeart size={20} />, label: "Traditional Crafts" },
+  { icon: <Scissors size={20} />, label: "Traditional Crafts" },
   { icon: <Leaf size={20} />, label: "Sustainable Living" },
 ];
 
