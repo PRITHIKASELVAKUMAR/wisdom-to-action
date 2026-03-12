@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Heart, BookmarkSimple, ShareNetwork } from "phosphor-react";
+import { ThumbsUp, BookmarkSimple, ShareNetwork } from "phosphor-react";
 
 interface KnowledgeCardProps {
   title: string;
@@ -49,7 +49,7 @@ const KnowledgeCard = ({
       <p className="mb-4 text-sm leading-relaxed text-muted-foreground line-clamp-2">{summary}</p>
       <div className="flex items-center gap-4">
         <button className="flex items-center gap-1.5 text-muted transition-colors hover:text-primary">
-          <Heart size={20} weight="regular" />
+          <ThumbsUp size={20} weight="regular" />
           <span className="text-sm">{likes}</span>
         </button>
         <button className="text-muted transition-colors hover:text-primary">
