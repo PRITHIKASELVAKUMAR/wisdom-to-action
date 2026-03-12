@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { MagnifyingGlass, Plant, FirstAid, Drop, HandHeart, Leaf, Fire } from "phosphor-react";
+import { MagnifyingGlass, Flower, FirstAid, Drop, Scissors, Leaf, Fire } from "phosphor-react";
 import AppShell from "@/components/AppShell";
 import KnowledgeCard from "@/components/KnowledgeCard";
 import CategoryChip from "@/components/CategoryChip";
